@@ -72,5 +72,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "jspdf": "^1.5.3"
+  }
 }
