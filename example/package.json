@@ -1,5 +1,5 @@
 {
-  "name": "{{name}}-example",
+  "name": "create-react-pdf-example",
   "homepage": "https://{{author}}.github.io/{{name}}",
   "version": "0.0.0",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "{{name}}": "{{#if yarn}}link:..{{else}}file:..{{/if}}"
+    "create-react-pdf": "file:.."
   },
   "scripts": {
     "start": "react-scripts start",
