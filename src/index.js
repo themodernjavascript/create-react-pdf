@@ -1,5 +1,7 @@
 import Document from './components/Document'
+import Text from './components/Text'
 
 export {
-  Document
+  Document,
+  Text
 }

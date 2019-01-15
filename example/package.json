@@ -5,11 +5,11 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "create-react-pdf": "file:..",
     "prop-types": "^15.6.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "^1.1.4",
-    "create-react-pdf": "file:.."
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "^1.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
