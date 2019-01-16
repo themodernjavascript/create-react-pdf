@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
 
-import { Document, Text, Image } from 'create-react-pdf'
+import { Document, Text, Image, Table } from 'create-react-pdf'
 
 export default class App extends Component {
   render () {
+    const columns = [["ID", "Name", "Country"]]
+    const rows = [
+      [1, "Bunlong", "USA"],
+      [2, "Omoto", "Japan"],
+      [3, "Aron", "India"],
+    ]
+
     return (
       <div>
         <Document>
@@ -15,6 +22,10 @@ export default class App extends Component {
             y={30}
             width={100}
             height={100}
+          />
+          <Table
+            head={columns}
+            body={rows}
           />
         </Document>
       </div>

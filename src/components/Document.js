@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import jsPDF from 'jspdf'
+import 'jspdf-autotable'
 
 export const { Provider, Consumer } = React.createContext()
 
@@ -46,7 +47,7 @@ export default class Document extends Component {
     )
 
     const uri = doc.output('datauristring')
-    const contentIframe = <iframe frameBorder='0' width={500} height={800} src={uri} />
+    const contentIframe = <iframe frameBorder='0' width={1000} height={800} src={uri} />
 
     return (
       <div>
