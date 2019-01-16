@@ -30,9 +30,9 @@ const Text = (props) => {
 }
 
 Text.propTypes = {
+  children: PropTypes.node.isRequired,
   x: PropTypes.number,
   y: PropTypes.number,
-  children: PropTypes.node,
   flags: PropTypes.string,
   angle: PropTypes.number,
   align: PropTypes.string,

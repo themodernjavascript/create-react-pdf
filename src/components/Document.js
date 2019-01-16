@@ -31,7 +31,10 @@ export default class Document extends Component {
       children
     } = this.props
 
-    const { doc, callChildren } = this.state
+    const {
+      doc,
+      callChildren
+    } = this.state
 
     const content = (
       <Provider value={{
