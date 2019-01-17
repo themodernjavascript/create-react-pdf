@@ -39,7 +39,7 @@ Text.propTypes = {
   color: PropTypes.string,
   fontName: PropTypes.string,
   fontStyle: PropTypes.string,
-  size: PropTypes.string
+  size: PropTypes.number
 }
 
 Text.defaultProps = {
